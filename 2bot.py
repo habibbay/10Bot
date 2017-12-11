@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =["u4843bca56f19fd29c1ad040f7fdd80dc","uu6c73876821feaef60e5ed7a2909f4952"]
-admin = ["u6c73876821feaef60e5ed7a2909f4952","u4843bca56f19fd29c1ad040f7fdd80dc"]
+owner =["u34adbd6725cbf4c514d6e43814451476"]
+admin = ["u34adbd6725cbf4c514d6e43814451476"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -1970,7 +1970,7 @@ def bot(op):
       #-------------Fungsi Banned Send Contact Finish------------------#
             elif msg.text in ["Creator"]:
               msg.contentType = 13
-              msg.contentMetadata = {'mid':'u4843bca56f19fd29c1ad040f7fdd80dc'}
+              msg.contentMetadata = {'mid':'u34adbd6725cbf4c514d6e43814451476'}
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
@@ -1978,7 +1978,7 @@ def bot(op):
                 
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi","bot","Bot"]:
-                 quote = ['ya kaka.. Ajakin aku ke room kamu yg di sebelah dong kak!!!! ']
+                 quote = ['ya kaka.. Ajakin Bieb ciluk ke room kamu yg di sebelah dong kak!!!! ']
                  psn = random.choice(quote)
                  cl.sendText(msg.to,psn)
             
