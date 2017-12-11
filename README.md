@@ -13,4 +13,9 @@ Kelebihan :
 2.Bisa Invite Semua Bot Lewat Command Tanpa Bot Induk
 3.Bot Tidak Saling Kick Ketika Ada Yang Terkick
 
-
+Thanks for
+-Bieb Ciluk
+-Alfathdirk
+-Farzain
+-Hanafi One Peace Bot 
+-ciluk team bot
