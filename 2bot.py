@@ -29,8 +29,8 @@ helpMessage ="""╔═════════════
 ║╠[1]Status
 ║╠[2]Bot?
 ║╠[3]Respon
-║╠[4]Cctv→Ciduk
-║╠[5]Tagall
+║╠[4]Cctv→kena
+║╠[5]Tagall,Lurking
 ║╠[6]Banlist
 ║╠[7]Me
 ║╠[8]Info group
