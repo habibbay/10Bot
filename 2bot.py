@@ -94,6 +94,7 @@ Ready:
 
 
 ṡȗƿƿȏяṭєԀ ɞʏ:
+ http://line.me/ti/p/~ntan2801
   
 ☆ CILUK BOT ☆""",
     "lang":"JP",
@@ -1933,7 +1934,7 @@ def bot(op):
                 cl.sendText(msg.to,"Respon....")
                 ki.sendText(msg.to,"Respon......")
                 ki2.sendText(msg.to,"Respon.......")
-                cl.sendText(msg.to,"Ready Protect...")
+                cl.sendText(msg.to,"Ready Protect.....")
       #-------------Fungsi Respon Finish---------------------#
                             
 
@@ -1971,14 +1972,14 @@ def bot(op):
             elif msg.text in ["Creator"]:
               msg.contentType = 13
               msg.contentMetadata = {'mid':'u34adbd6725cbf4c514d6e43814451476'}
-              cl.sendText(msg.to,"======================")
+              cl.sendText(msg.to," http://line.me/ti/p/~ntan2801")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
-              cl.sendText(msg.to,"Itu Creator Kami")
+              cl.sendText(msg.to," He is Bots creator")
                 
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi","bot","Bot"]:
-                 quote = ['ya kaka.. Ajakin Bieb ciluk ke room kamu yg di sebelah dong kak!!!! ']
+                 quote = ['ya kaka.. di add ya :D\n  http://line.me/ti/p/~ntan2801']
                  psn = random.choice(quote)
                  cl.sendText(msg.to,psn)
             
