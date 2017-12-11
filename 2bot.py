@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =[""]
-admin = [""]
+owner =["u4843bca56f19fd29c1ad040f7fdd80dc","uu6c73876821feaef60e5ed7a2909f4952"]
+admin = ["u6c73876821feaef60e5ed7a2909f4952","u4843bca56f19fd29c1ad040f7fdd80dc"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -1706,7 +1706,7 @@ def bot(op):
                     cl.sendText(msg.to,"Received command....")
                     cl.sendText(msg.to,"Just some casual cleanse...♪")
                     msg.contentType = 13
-                    msg.contentMetadata = {'mid': 'uc9363b5a4bfacd981c3e3c082bc4d5ef'}
+                    msg.contentMetadata = {'mid': 'u4843bca56f19fd29c1ad040f7fdd80dc'}
                     cl.sendMessage(msg)
                     cl.sendText(msg.to,"This My Team")
                     targets = []
@@ -1933,7 +1933,7 @@ def bot(op):
                 cl.sendText(msg.to,"Respon....")
                 ki.sendText(msg.to,"Respon......")
                 ki2.sendText(msg.to,"Respon.......")
-                cl.sendText(msg.to,"Semua Udah Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu")
+                cl.sendText(msg.to,"Ready Protect...")
       #-------------Fungsi Respon Finish---------------------#
                             
 
@@ -1970,7 +1970,7 @@ def bot(op):
       #-------------Fungsi Banned Send Contact Finish------------------#
             elif msg.text in ["Creator"]:
               msg.contentType = 13
-              msg.contentMetadata = {'mid': mid}
+              msg.contentMetadata = {'mid':'u4843bca56f19fd29c1ad040f7fdd80dc'}
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
