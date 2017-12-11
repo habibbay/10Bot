@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =["u34adbd6725cbf4c514d6e43814451476"]
-admin = ["u34adbd6725cbf4c514d6e43814451476"]
+owner =["u4843bca56f19fd29c1ad040f7fdd80dc"]
+admin = ["u4843bca56f19fd29c1ad040f7fdd80dc"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -1971,7 +1971,7 @@ def bot(op):
       #-------------Fungsi Banned Send Contact Finish------------------#
             elif msg.text in ["Creator"]:
               msg.contentType = 13
-              msg.contentMetadata = {'mid':'u34adbd6725cbf4c514d6e43814451476'}
+              msg.contentMetadata = {'mid':'u4843bca56f19fd29c1ad040f7fdd80dc'}
               cl.sendText(msg.to," http://line.me/ti/p/~ntan2801")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
