@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =["u4843bca56f19fd29c1ad040f7fdd80dc"]
-admin = ["u4843bca56f19fd29c1ad040f7fdd80dc"]
+owner =["u1723e003eee84b9f60288bd998356b93"]
+admin = ["u1723e003eee84b9f60288bd998356b93"]
 wait = {
     'contact':False,
     'autoJoin':True,
